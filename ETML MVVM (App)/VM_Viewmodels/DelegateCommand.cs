@@ -8,7 +8,7 @@ using System.Windows.Input;
 
 // La classe DelegateCommand doit implémenter les méthodes prévues par l'interface "ICommand"
 
-namespace Fourchette__App_.VM_ViewModels
+namespace $safeprojectname$.VM_ViewModels
 {
     /// <summary>
     /// 

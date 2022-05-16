@@ -26,6 +26,8 @@
       </Folder>
 	  <Folder Name="VM_Viewmodels" TargetFolderName="VM_Viewmodels">
 		<ProjectItem ReplaceParameters="true" TargetFileName="DelegateCommand.cs">DelegateCommand.cs</ProjectItem>
+		<ProjectItem ReplaceParameters="true" TargetFileName="MainViewModelBase.cs">MainViewModelBase.cs</ProjectItem>
+		<ProjectItem ReplaceParameters="true" TargetFileName="MainViewModel.cs">MainViewModel.cs</ProjectItem>
 	  </Folder>
       <Folder Name="V_Views" TargetFolderName="V_Views">
         <ProjectItem ReplaceParameters="true" TargetFileName="MainPage.xaml">MainPage.xaml</ProjectItem>
