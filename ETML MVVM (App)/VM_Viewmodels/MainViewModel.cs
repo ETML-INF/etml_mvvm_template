@@ -34,7 +34,8 @@ namespace $safeprojectname$.VM_ViewModels
 		* Doivent avoir une visibilité "private"
 		* Doivent commencer par "_" (par exemple : _counter)	
 		**********************************************************************************/
-		/* private int _counter */
+		/* A décommenter */
+		/* private int _counter; */
 		
 		
 		/**********************************************************************************
@@ -47,13 +48,13 @@ namespace $safeprojectname$.VM_ViewModels
 		* De plus, la propriété notifie un changement et transmets son nom.
 		*
 		**********************************************************************************/
-		
-		/* public int Counter 
+		/* A décommenter */
+		/*public int Counter 
 		{
 			set 
 			{
-				OnPropertyChanged("Counter");
 				_counter = value;
+				OnPropertyChanged("Counter");
 			}
 			
 			get
@@ -70,7 +71,8 @@ namespace $safeprojectname$.VM_ViewModels
 		**********************************************************************************/
         public MainViewModel()
 		{
-			/*
+			/* A décommenter */
+			/* 
 			Counter = 0;
 			*/
 		}
@@ -81,7 +83,9 @@ namespace $safeprojectname$.VM_ViewModels
 		* DelegateCommand permet d'associer une fonction (par exemple IncrementCounter) avec 
 		* la commande.
         **********************************************************************************/        
-		/* Exemple 
+		
+		/* Exemple */
+		/* A décommenter		
 		public ICommand OKButtonClicked
         {
             get
@@ -96,7 +100,8 @@ namespace $safeprojectname$.VM_ViewModels
         * Fonctions associées aux commandes
         * 
         **********************************************************************************/
-        /* Exemple
+        /* Exemple */
+		/* A décommenter
 		public void IncrementCounter()
         {
             Counter++;
