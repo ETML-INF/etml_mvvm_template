@@ -17,7 +17,9 @@ Les changements concernent uniquement deux fichiers :
 1. Double cliquez sur **MainPage.xaml**
 2. Réperez les blocs commentés. Ils se trouvent entre les chevrons : \<!-- --\>
 3. Décommentez
-4. Double cliquez sur **MainPage.xaml**
+4. Double cliquez sur **MainViewModel.cs**
+5. Réperez les blocs commentés. Ils se trouvent entre les caractères /* et */
+6. Décommentez
 
 # Qu'est-ce que nous avons fait ?
 
