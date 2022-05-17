@@ -42,6 +42,16 @@ Comme Visual Studio propose de nombreux projets, il peut être utile de :
 * Attacher (pin) le projet pour le retrouver plus facilement par la suite.
 
 ## Description des éléments d'un nouveau projet vide
+![06_details_du_projet.png](docs/img/06_details_du_projet.png)
+
+La solution dans Visual Studio ressemble à ceci. 
+
+En vert : les éléments de soutien que le template apporte (le développeur n’a pas besoin d’y apporter de modifications
+En noir : les éléments où le développement se fait. 
+
+Le template de base propose une application mono-page, mais plusieurs classe de type « ModelView » pourrait être crée par page supplémentaire. Le conteneur « Window » s’occupe de charger la page principale (MainPage) dans une frame.
+
+
 
 ## Exemples
 [Exemple Compteur simple](docs/Example%20Counter.md)
