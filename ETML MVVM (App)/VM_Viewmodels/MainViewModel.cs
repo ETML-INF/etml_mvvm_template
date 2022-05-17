@@ -79,7 +79,7 @@ namespace $safeprojectname$.VM_ViewModels
 		
         /**********************************************************************************
         * Binding avec les commandes. 
-        * Cette portition du code permet d'attacher une commande (ICommand) avec la vue.
+        * Cette portion du code permet d'attacher une commande (ICommand) avec la vue.
 		* DelegateCommand permet d'associer une fonction (par exemple IncrementCounter) avec 
 		* la commande.
         **********************************************************************************/        
