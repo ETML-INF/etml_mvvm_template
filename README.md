@@ -16,9 +16,10 @@ Visual Studio 2022
 
 ## Installation
 Le dossier etml_mvvm_template doit être télechargé vers **%userprofile%\Documents\Visual Studio 2022\Templates\ProjectTemplates**
-/!\ Si le template n'apparaît pas, la cause est à chercher dans le fichier .vstemplate.
 
-Néamoins, le plus simple est de cloner ce dépôt git vers votre machine. Pour ce faire, ouvrez une commande DOS et tapez les commandes suivantes :
+/!\ Si le template n'apparaît pas dans la liste des propositions de projets de Visual Studio, la cause est à chercher dans le(s) fichier(s) .vstemplate.
+
+Néanmoins, le plus simple est de cloner ce dépôt git vers votre machine. Pour ce faire, ouvrez une commande DOS et tapez les commandes suivantes :
 
 ```
 C:
@@ -32,4 +33,15 @@ Si vous avez synchronisé (fonction backup de OneDrive) votre bureau et vos docu
 
 ## Utilisation du template
 
+Le template est disponible depuis le menu création d'un nouveau projet de l'IDE Visual Studio.
+![Nouveau projet](docs/img/01_creation_nouveau_projet.png)
+
+Comme Visual Studio propose de nombreux projets, il peut être utile de :
+
+* Utiliser la barre de recherche (la recherche est active sur le nom du projet et ses tags). Nous recommandons d'utiliser le mot clé **ETML**
+* Attacher (pin) le projet pour le retrouver plus facilement par la suite.
+
 ## Description des éléments d'un nouveau projet vide
+
+## Exemples
+[Exemple Compteur simple](docs/Example%20Counter.md)
