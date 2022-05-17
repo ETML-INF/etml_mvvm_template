@@ -35,4 +35,4 @@ Si vous avez synchronisé (fonction backup de OneDrive) votre bureau et vos docu
 ## Description des éléments d'un nouveau projet vide
 
 ## Exemples
-[Exemple Compteur simple](docs/Example Counter.md)
+[Exemple Compteur simple](docs/Example%20Counter.md)
