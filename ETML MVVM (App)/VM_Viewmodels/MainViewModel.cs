@@ -82,6 +82,11 @@ namespace $safeprojectname$.VM_ViewModels
         * Cette portion du code permet d'attacher une commande (ICommand) avec la vue.
 		* DelegateCommand permet d'associer une fonction (par exemple IncrementCounter) avec 
 		* la commande.
+		*
+		* Lorsque la propriété OKButtonClicked est lue (ce qui se fait par exemple au clic)
+		* le getter de la propriété retourne un nouvel objet de type ICommand porteuse
+		* de la fonction à exécuter.
+		*
         **********************************************************************************/        
 		
 		/* Exemple */
