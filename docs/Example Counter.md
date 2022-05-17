@@ -15,7 +15,7 @@ Les changements concernent uniquement deux fichiers :
 | <b>Figure 2 : Files to update</b>|
 
 1. Double cliquez sur **MainPage.xaml**
-2. Réperez les blocs commentés. Ils se trouvent entre les chevrons : <!-- -->
+2. Réperez les blocs commentés. Ils se trouvent entre les chevrons : \<!-- --\>
 3. Décommentez
 4. Double cliquez sur **MainPage.xaml**
 
