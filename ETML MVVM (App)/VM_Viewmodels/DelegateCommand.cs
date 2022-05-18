@@ -39,14 +39,14 @@ namespace $safeprojectname$.VM_ViewModels
             // no setter
         }
 
-        public void Execute(object org)
+        public void Execute(object parameter)
         {
             _handler();
         }
 
 
         // Retourne vrai si la commande peut être exécutée.
-        public bool CanExecute(object org)
+        public bool CanExecute(object parameter)
         {
             return this.IsEnabled;
         }
